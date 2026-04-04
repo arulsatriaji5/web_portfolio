@@ -231,3 +231,46 @@ footer{
 html {
     scroll-behavior: smooth;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header, 
+.dark-mode .saya a, 
+.dark-mode .skills div, 
+.dark-mode .kartu ,
+.dark-mode  .contact input ,
+.dark-mode  .contact button,
+.dark-mode .contact textarea {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode nav a,
+.dark-mode .saya a{
+    color: white;
+    transition: 0.3s;
+}
+
+.dark-mode nav a:hover{
+    color: aqua;
+}
+
+.dark-mode .saya a,
+.dark-mode .skills div ,
+.dark-mode .kartu{
+    transition: 0.3s;
+}
+
+.dark-mode .saya a:hover ,
+.dark-mode .skills div:hover {
+    background-color: navy;
+    box-shadow: 0 4px 10px rgb(156, 153, 153);
+}
+
+.dark-mode .kartu:hover,
+.dark-mode .contact button:hover {
+    box-shadow: 0 4px 10px rgb(156, 153, 153);
+}
