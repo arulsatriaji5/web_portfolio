@@ -233,6 +233,15 @@ html {
     .contact {
         margin: auto;
     }
+    .contact {
+        width: 90%;
+        margin: 30px auto; 
+        padding: 0; 
+    }
+
+    .contact input, .contact textarea {
+        padding: 10px;
+    }
 }
 
 .dark-mode {
